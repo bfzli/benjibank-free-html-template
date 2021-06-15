@@ -1,0 +1,159 @@
+.section-2 {
+    margin-top: 15vh !important;
+}
+
+.img-1 {
+    top: 35%;
+    left: 20%;
+}
+
+.home-info-h {
+    margin-top: .75rem;
+}
+
+.home-info-p {
+    padding: 0rem 2rem 1rem 0rem;
+}
+
+.home-info-btn {
+    font-family: 'Poppins';
+    text-underline-offset: 3px;
+    text-decoration: underline;
+    color: var(--primary);
+    padding-left: 1.3rem;
+}
+
+.img-h {
+    display: none;
+}
+
+.w80 {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+.kontaktmgb {
+    height: 170vh !important;
+}
+
+form {
+    width: 100% !important;
+    margin-left: 1.3rem !important;
+}
+
+.tick-heading {
+    font-size: 2.6em;
+}
+
+.p-p2 {
+    width: 100%;
+}
+
+.container-no {
+    height: auto !important;
+    margin-bottom: 7.5vh !important;
+    margin-top: 7.5vh !important;
+}
+
+.tick-heading {
+    margin-top: 0rem;
+}
+
+.kontakt-title {
+    display: none;
+}
+
+.kontakt-text {
+    margin: 0;
+    padding: 0;
+    margin-top: -15vh;
+    margin-left: 1.5rem;
+}
+
+.s3 {
+    margin-top: 15vh !important;
+    margin-bottom: 10vh !important;
+}
+
+.img-2 {
+    top: 30%;
+    left: 20%;
+}
+
+.img-3 {
+    top: 35%;
+    left: 18%;
+}
+
+.dcus {
+    margin-bottom: .75rem;
+}
+
+.d-f-m {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-why {
+    margin-bottom: 1.3rem;
+}
+
+footer {
+    flex-direction: column !important;
+    justify-content: start;
+    padding: 1rem 0;
+}
+
+footer ul {
+    flex-direction: column;
+    justify-content: start;
+    display: none !important;
+}
+
+footer li {
+    display: flex;
+    justify-content: start;
+    display: none !important;
+}
+
+footer .h-f {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+footer {
+    height: auto;
+    padding-top: rem !important;
+    justify-content: start !important;
+}
+
+.ceo-image {
+    width: 50%;
+    position: absolute;
+    bottom: -1rem;
+    right: 25%;
+}
+
+.mobile {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: start !important;
+}
+
+.blog-layout {
+    margin: 1rem 0rem !important;
+}
+
+.spsp {
+    display: none !important;
+}
+
+.rn-title {
+    font-size: 2.6em;
+    width: 120%;
+}
+
+.extras {
+    margin-top: -15vh !important;
+}

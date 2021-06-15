@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="al">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjibank</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./magic-mouse.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="loader">
+        <div class="loader-holder">
+            <h2 class="fade">
+                duke u ngarkuar...
+            </h2>
+        </div>
+    </div>
+    <!-- Preloader -->
+
+    <!-- Header -->
+    <header>
+        <div id="header-within">
+            <div class="container h-f">
+                <a href="/" class="magic-hover">
+                    <div id="logo" alt="Logo">‎</div>
+                </a>
+            </div>
+            <div class="other d-flex flex-row .d-f">
+                <div class="mode-switch">
+                    <button class="mode magic-hover" id="menu-btn" onclick="myFunction()"></button>
+                </div>
+                <div class="menu">
+                    <div onclick="openNav()" class="ham d.f magic-hover"><b>Hape</b>
+                    </div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ol>
+                            <li id="i1" class="content__item">
+                                <a href="./rreth-nesh.html" class="link link--metis">
+                                    <h2 class="menu-link">Korporata</h2>
+                                </a>
+                            </li>
+                            <li id="i2" class="content__item">
+                                <a href="./kontakt.html" class="link link--metis">
+                                    <h2 class="menu-link">Ndihmë</h2>
+                                </a>
+                            </li>
+                            <li id="i3" class="content__item">
+                                <a href="./storiet.html" class="link link--metis">
+                                    <h2 class="menu-link">Storiet</h2>
+                                </a>
+                            </li>
+                        </ol>
+                        <div class="" id="vendi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Hero -->
+    <section id="container">
+        <div class="container">
+            <div class="within-container">
+                <div class="row g-0">
+                    <div class="col-6 h75 col-sm-12 col-md-6 d-flex row t">
+                        <h1 class="title-home font-color row d-flex align-items-center">
+                            Mirësevini në një eksperiencë të paharuar Bankare.<br>
+                        </h1>
+                        <p class="home-info">
+                            Në një kohë ku jeta është shumë sfiduese dhe e shpejtë juve ju nevojiten partnerë përgjatë
+                            udhëtimit të jetës. Benjibank është këtu për t’ju përgjigjur pyetjeve tuaja Çfarëdo që ju
+                            nevojitet, paketat dhe
+                            produktet tona i përshtaten
+                            nevojave tuaja në çdo moment dhe kohë.
+                        </p>
+                        <div class="btn-holder">
+                            <a href="#">
+                                <button class="btn btn-outline-secondary magic-hover">
+                                    Kartelë Personale
+                                </button></a>
+                            <div class="mastercard">
+                                nga <img id="mastercard" src="./images/mastercard.svg" alt="Mastercard">
+                            </div>
+                        </div>
+                    </div>
+                    <did class="col-6 h75 col-sm-12 col-md-6 d-flex">
+                        <div id="wrapper">
+                            <img id="div1" class="f" src="./images/card-dark.png" alt="">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero -->
+
+    <!-- COVID -->
+    <section>
+        <div class="section-2 s2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-4 d-f br1">
+                        <h3 class="home-info-h">
+                            Përgjigja jonë ndaj Pandemisë së Koronavirusit.
+                        </h3>
+                    </div>
+                    <div class="col-6 col-sm-6 d-f">
+                        <p class="home-info-p d-f">
+                            Përballë pandemisë koronavirus dhe mbylljes përkatëse në të gjithë globin, tregjet
+                            financiare dhe ekonomia më e gjerë
+                            kanë përjetuar stres dhe paqëndrueshmëri të konsiderueshme, lexoni se çka ne ju rekomandojm.
+                        </p>
+                    </div>
+                    <div class="col-2 col-sm-2 d-f btn-int">
+                        <a class="btn-int d-f btn-in magic-hover" href="/covid.html">
+                            <p class="home-info-btn">MASAT</p> <img src="./images/arrow.png" width="18px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COVID -->
+
+    <!-- Section:Sugjerime -->
+    <section id="container">
+        <div class="container">
+            <div class="row">
+                <!-- <h1 class="p-heading">Sugjerime</h1>
+                <p class="p-p">
+                    Disa nga informacionet më të rëndësishme që ju <br>patjetër duhet ti shfletoni dhe ti keni parasysh
+                    në
+                    të
+                    ardhmën.
+                </p> -->
+                <div id="b1" class="col-3 blog-normal">
+                    <div class="blog-layout color magic-hover">
+                        <h2 class="ceo-title">CEO</h2>
+                        <p class="ceo-name">Abdullah Aziri</p>
+                        <img class="ceo-image" src="./images/ceo.png" alt="Abdullah's Image">
+                    </div>
+                </div>
+                <div id="b2" class="col-6  col-sm-6 blog-advanced">
+                    <div class="blog-layout magic-hover">
+                        <h2 class="ceo-title ex">PA KREDI</h2>
+                        <p class="card-p ex">A jeni lodhur duke paguar çka ju nuk e keni harxhuar pa të drejtë? Atëherë
+                            ne
+                            jemi zgjidhja, Banka jonë ofron sistem bankar pa kredi në mënyrë sheriatike.</p>
+                        <div class="special"></div>
+                    </div>
+                </div>
+                <div id="b3" class="col-3 col-sm-3 blog-normal">
+                    <div class="blog-layout magic-hover green">
+                        <h2 class="ceo-title">CELULARË</h2>
+                        <p class="card-p">Shkarokoni aplikacionet Bankare për qasje më të lehtë.</p>
+                        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ltbqacam.json"
+                            background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay>
+                        </lottie-player>
+                        </lottie-player>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section:Sugjerime -->
+
+    <!-- Section:Dobite -->
+    <section id="container">
+        <div class="container s3">
+            <h1 class="p-heading">Dobitë</h1>
+            <p class="p-p2 mgin">
+                Njoftohuni me korporatën tonë Bankare dhe shikojeni pse konsumatorët rekomandojn bankën tonë dhe kanë
+                vlerësim për të.
+            </p>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card-why">
+                        <img id="badge-1" src="./images/badge-1-dark.png" width="50">
+                        <h2 class="card-why-h">Fleksibilë</h2>
+                        <p class="card-why-p">Ne ofrojmë disa rangje të ndryshme të llogarive Bankare duke filluar prej
+                            atyre Individuale dhe të Bizneseve të ndryshme, çka po prisni? Ndërtojeni
+                            të
+                            ardhmën tuaj financiare me ne.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card-why">
+                        <img id="badge-2" src="./images/badge-2-dark.png" width="50">
+                        <h2 class="card-why-h">Digjital</h2>
+                        <p class="card-why-p">
+                            Harojeni më vizitat, Menaxhoni llogarin tuaj prej pajisjeve tuaja brenda minutit në çdo kohë
+                            dhe vend.
+                            Bile edhe paguaj online, paguaj në shitore, paguaj andej dhe këndej.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card-why">
+                        <img id="badge-3" src="./images/badge-3-dark.png" width="60">
+                        <h2 class="card-why-h">Pa Kredi</h2>
+                        <p class="card-why-p">
+                            A jeni lodhur duke paguar çka ju nuk e keni harxhuar pa të drejtë? Atëherë Banka jonë është
+                            zgjidhja juaj. Ne ofrojmë një sistem 100% Sheriatik pa kredi (kamatë) për përdoruesit tonë.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section:Dobite -->
+
+    <!-- Section: Storiet -->
+    <section id="containernoh">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="icon">
+                        <img class="storie-img" src="./images/star.png" width="38px" alt="">
+                    </div>
+                    <h2 class="stories-heading">
+                        Vend i storieve, lexoni njoftimet e fundit që kanë të bëjnë me Benjibank
+                    </h2>
+                    <p class="p-p22 w86">
+                        Lexoni se çka po ndërtohet dhe lansohet, njoftohuni i pari dhe qëndroni në njoftim në çdo kohë
+                        dhe vend.
+                    </p>
+                    <a class="btn-int d-f btn-in magic-hover left" href="./storiet.html">
+                        <p class="home-info-btn">LEXOI TË GJITHA</p> <img src="./images/arrow.png" width="18px" alt="">
+                    </a>
+                </div>
+                <div class="col-7 d-flex flex-column">
+                    <div class="storie magic-hover">
+                        <div class="storie-left">
+                            <img class="storie-img" src="./images/blog/img-6.png" alt="Storie Image">
+                        </div>
+                        <div class="storie-right">
+                            <p class="category">#si-të</p>
+                            <h3 class="storie-title">Menyra më efikase për një gjendje financiare të mirë</h3>
+                            <p class="storie-short">Gjithkush në jetë ka kaluar në disa faza të rënda financiare, ekipi
+                                ynë ka përgaditur disa rekomandime.</p>
+                        </div>
+                    </div>
+                    <div class="storie magic-hover">
+                        <div class="storie-left">
+                            <img class="storie-img" src="./images/blog/img-10.png" alt="Storie Image">
+                        </div>
+                        <div class="storie-right">
+                            <p class="category">#shërbimet</p>
+                            <h3 class="storie-title">Sistemi i ri virtual për pranimin e pagesave online
+                            </h3>
+                            <p class="storie-short">
+                                Tani për herë të parë është munëdesia që bizneset të pranojnë pagesa virtualisht
+                                me sistemin tonë të ri.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="storie store-last magic-hover">
+                        <div class="storie-left">
+                            <img class="storie-img" src="./images/blog/img-4.png" alt="Storie Image">
+                        </div>
+                        <div class="storie-right">
+                            <p class="category">#lajmet</p>
+                            <h3 class="storie-title">Kartelat e reja nga Benjibank & Mastercard në përdorim</h3>
+                            <p class="storie-short">Benjibank në bashkpunim me Mastercard kanë sjellur një rifreskim të
+                                dizajnit të kartelës tonë bankare.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Storiet -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container h-f">
+            <div class="logo-holder d-inline d-inline-flex">
+                <a href="/" class="magic-hover">
+                    <div id="logo" alt="Logo">‎‎</div>
+                </a>
+                <ul class="d-flex d-f d-inline">
+                    <li><a href="#" class="magic-hover">
+                            Politika e privatësisë
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="magic-hover">
+                            Kushtet e shërbimit
+                        </a>
+                    </li>
+                    <li><a href="#" class="magic-hover">
+                            Biskotat
+                        </a>
+                    </li>
+                    <li><a href="#" class="magic-hover">
+                            Partnerët
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="magic-hover">
+                            Shërbimet
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <lottie-player id="smmig" src="https://assets1.lottiefiles.com/packages/lf20_bum0cq3q.json"
+                                background="transparent" speed="1" style="width: 32px; height: 32px;" hover>
+                            </lottie-player>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <lottie-player id="smmfb" src="https://assets7.lottiefiles.com/packages/lf20_8ovorx6q.json"
+                                background="transparent" speed="1" style="width: 32px; height: 32px;" hover>
+                            </lottie-player>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <lottie-player id="smmyt" src="https://assets9.lottiefiles.com/packages/lf20_evi3bcpl.json"
+                                background="transparent" speed="1" style="width: 32px; height: 32px;" hover>
+                            </lottie-player>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+<!-- Cursor -->
+<script type="text/javascript" src="./magic_mouse.js"></script>
+<script type="text/javascript">
+    options = {
+        "cursorOuter": "enable",
+        "hoverEffect": "pointer-overlay",
+        "hoverItemMove": false,
+        "defaultCursor": false,
+        "outerWidth": 60,
+        "outerHeight": 60
+    };
+    magicMouse(options);
+</script>
+<!-- Cursor -->
+
+<!-- Bootstrap JavaScript 5.0.0  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+<!-- Bootstrap JavaScript 5.0.0  -->
+
+<!-- Lotie-->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<!-- Lotie-->
+
+<!-- jQuery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- jQuery  -->
+<script type="text/javascript" src="./functions.js"></script>
+
+<!-- Dark Mode Toggler -->
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+<!-- Dark Mode Toggler -->
+
+<!-- Hover Menu Link -->
+<script>
+    $(document).ready(function () {
+        $("#i1").hover(function () {
+            $("#i2").addClass("hoverstate");
+            $("#i3").addClass("hoverstate");
+            $("#i4").addClass("hoverstate");
+        },
+            function () {
+                $(".content__item").removeClass("hoverstate");
+            });
+    });
+    $(document).ready(function () {
+        $("#i2").hover(function () {
+            $("#i1").addClass("hoverstate");
+            $("#i3").addClass("hoverstate");
+            $("#i4").addClass("hoverstate");
+        },
+            function () {
+                $(".content__item").removeClass("hoverstate");
+            });
+    });
+    $(document).ready(function () {
+        $("#i3").hover(function () {
+            $("#i2").addClass("hoverstate");
+            $("#i1").addClass("hoverstate");
+            $("#i4").addClass("hoverstate");
+        },
+            function () {
+                $(".content__item").removeClass("hoverstate");
+            });
+    });
+    $(document).ready(function () {
+        $("#i4").hover(function () {
+            $("#i2").addClass("hoverstate");
+            $("#i3").addClass("hoverstate");
+            $("#i1").addClass("hoverstate");
+        },
+            function () {
+                $(".content__item").removeClass("hoverstate");
+            });
+    });
+</script>
+<!-- Hover Menu Link -->
+
+<!-- Menu Open Sidenav -->
+<script>
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<!-- Menu Open Sidenav -->
+
+<!-- Menu Hover add Background Image -->
+<script>
+    $(document).ready(function () {
+        $("#i1").hover(function () {
+            $("#vendi").addClass("img-1");
+        },
+            function () {
+                $("#vendi").removeClass("img-1");
+            });
+    });
+
+    $(document).ready(function () {
+        $("#i2").hover(function () {
+            $("#vendi").addClass("img-2");
+        },
+            function () {
+                $("#vendi").removeClass("img-2");
+            });
+    });
+
+
+    $(document).ready(function () {
+        $("#i3").hover(function () {
+            $("#vendi").addClass("img-3");
+        },
+            function () {
+                $("#vendi").removeClass("img-3");
+            });
+    });
+</script>
+<!-- Menu Hover add Background Image -->
+
+<!-- Preloader -->
+<script>
+    $(document).ready(function () {
+        $(".loader").addClass("hide");
+        setTimeout(function () {
+            $(".loader").removeClass("hide");
+        }, 4500);
+    });
+</script>
+<!-- Preloader -->
+
+<!-- Card 3D Movement -->
+<script>
+    $(document).ready(function () {
+        var $one = $('#div1'),
+            browserPrefix = "",
+            usrAg = navigator.userAgent;
+        if (usrAg.indexOf("Chrome") > -1 || usrAg.indexOf("Safari") > -1) {
+            browserPrefix = "-webkit-";
+        } else if (usrAg.indexOf("Opera") > -1) {
+            browserPrefix = "-o";
+        } else if (usrAg.indexOf("Firefox") > -1) {
+            browserPrefix = "-moz-";
+        } else if (usrAg.indexOf("MSIE") > -1) {
+            browserPrefix = "-ms-";
+        }
+
+        $(document).mouseenter(function (event) {
+            $('#wrapper').addClass('mouse-enter');
+            setTimeout(function () {$('#wrapper').removeClass('mouse-enter');}, 400);
+        });
+
+        $(document).mousemove(function (event) {
+            var cx = Math.ceil(window.innerWidth / 2.5),
+                cy = Math.ceil(window.innerHeight / 2.5),
+                dx = event.pageX - cx,
+                dy = event.pageY - cy,
+                tiltx = (dy / cy),
+                tilty = - (dx / cx),
+                radius = Math.sqrt(Math.pow(tiltx, 3) + Math.pow(tilty, 3)),
+                degree = (radius * -15);
+            $one.css(browserPrefix + 'transform', 'rotate3d(' + tiltx + ', ' + tilty + ', 0, ' + degree + 'deg)');
+        });
+    });
+</script>
+<!-- Card 3D Movement -->
+
+<!-- Dark Mode Toggle / Change Assets -->
+<script>
+    $(document).ready(function () {
+        var img = $('#div1');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "images/card-light.png";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+    $(document).ready(function () {
+        var img = $('#mastercard');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "images/mastercard-light.svg";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+
+    $(document).ready(function () {
+        var img = $('#badge-1');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "images/badge-1-light.png";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+    $(document).ready(function () {
+        var img = $('#badge-2');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "images/badge-2-light.png";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+    $(document).ready(function () {
+        var img = $('#badge-3');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "images/badge-3-light.png";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+    $(document).ready(function () {
+        var img = $('#smmyt');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "https://assets4.lottiefiles.com/packages/lf20_49ojohmi.json";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+    $(document).ready(function () {
+        var img = $('#smmfb');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "https://assets1.lottiefiles.com/packages/lf20_zwe63f25.json";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+
+    $(document).ready(function () {
+        var img = $('#smmig');
+        var prev = img[0].src;
+        function toggle(img) {
+            let src = img.src;
+            if (src == prev) {
+                img.src = "https://assets1.lottiefiles.com/packages/lf20_zwe63f25.json";
+            } else {
+                img.src = prev;
+            }
+        }
+        $('#menu-btn').on('click', function () {
+            toggle(img[0]);
+        })
+    });
+</script>
+<!-- Dark Mode Toggle / Change Assets -->
+
+</html>
+<!-- <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bum0cq3q.json" background="transparent" speed="1"
+        style="width: 32px; height: 32px;" loop autoplay>
+    </lottie-player>
+    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_2sct5kye.json" background="transparent" speed="1"
+        style="width: 32px; height: 32px;" loop autoplay>
+    </lottie-player>
+    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_zwe63f25.json" background="transparent" speed="1"
+        style="width: 32px; height: 32px;" loop autoplay>
+    </lottie-player> -->
